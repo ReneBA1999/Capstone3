@@ -16,3 +16,48 @@
 :root {
     font-size: 1rem;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa; /* Light background color */
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.navbar h1 {
+    margin: 0 ;
+    font-size: 24px;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar ul li {
+    margin: 0 10px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #000; /* Black text color */
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+.navbar ul li a:hover {
+    color: #007bff; /* Blue on hover */
+    font-size: 26px;
+}
+main {
+    margin-top: 70px; /* Add space to avoid content being hidden under the navbar */
+}
+h2 {
+    margin-top: 60px;
+}
