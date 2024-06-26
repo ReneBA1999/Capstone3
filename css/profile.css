@@ -10,6 +10,9 @@ img {
   height: 100px;
   width: 100px;
 }
+.bars{
+    background-color: #dffff7;
+}
 /*
 .text-center {
     width: 100%;

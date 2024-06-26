@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url('');
+    background-image: url('/images/people.jpg');
     background-size: cover;
     background-position: center;
     margin: 0;
