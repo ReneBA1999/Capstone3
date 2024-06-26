@@ -1,0 +1,43 @@
+/* Landing Page CSS */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+h1{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+main {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+form {
+    background: #dffff7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+}

@@ -1,1 +1,41 @@
-/* Posts Page CSS */
+/* Posts Page CSS*/
+
+main {
+    margin-top: 70px; /* Add space to avoid content being hidden under the navbar */
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.posts-container {
+    width: 70%;
+    background-color: #dffff7;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.posts-title {
+    width: 100%;
+    background-color: #0bc694;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#postContent {
+    padding: 20px;
+}
+
+.post {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}

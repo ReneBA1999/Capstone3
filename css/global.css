@@ -25,13 +25,33 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f8f9fa; /* Light background color */
+    background-color: #dffff7; /* Light background color */
     padding: 10px 20px;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
 }
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.search-box {
+    background: #affce9;
+    width: 330px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.navbar-brand img.logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
 .navbar h1 {
     margin: 0 ;
     font-size: 24px;
@@ -52,12 +72,21 @@ body {
     transition: color 0.3s ease;
 }
 .navbar ul li a:hover {
-    color: #007bff; /* Blue on hover */
+    color: #0bc694; /* Blue on hover */
     font-size: 26px;
 }
 main {
     margin-top: 70px; /* Add space to avoid content being hidden under the navbar */
 }
 h2 {
-    margin-top: 60px;
+    margin-top: 80px;
+    margin-left: 25px;
+}
+footer {
+    background-color: #dffff7;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 0;
 }
