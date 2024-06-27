@@ -39,18 +39,52 @@
                 <h1>Cyber Chat</h1>
             </div>
             <ul>
-                <input class="search-box"type="text" placeholder="Search">
+                <input class="search-box" type="text" placeholder="Search">
                 <li><a href="post.html">Post</a></li>
                 <li><a href="profile.html">Profile</a></li>
-                <li><button onclick="logout()" id="logoutButton" type="submit" class="btn btn-success">Logout</button></li>
+                <li><button onclick="logout()" id="logoutButton" type="submit" class="btn btn-success">Logout</button>
+                </li>
             </ul>
         </nav>
     </header>
     <h2>Posts Page</h2>
-    <main>
-        <div class="posts-container">
-            <div class="posts-title">Posts</div>
-            <div id="postContent"></div> <!-- Container for posts -->
+    <main class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="bars">
+                    <!-- Sidebar content -->
+                    <h2>Friends Online</h2>
+                    <br>
+                    <p>Freind 1</p>
+                    <hr>
+                    <p>Freind 1</p>
+                    <hr>
+                    <p>Freind 1</p>
+                    <hr>
+                    <p>Freind 1</p>
+                    <hr>
+                    <p>Freind 1</p>
+                </div>
+            </div>
+            <div class="posts-container col-md-6">
+                <div class="posts-title">Posts</div>
+                <div id="postContent"></div> <!-- Container for posts -->
+            </div>
+            <div class="col-md-3">
+                <div class="bars">
+                    <!-- Sidebar content -->
+                    <h2>News</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Laboriosam doloribus dicta molestias sit beatae ab modi porro eveniet nisi dignissimos!
+                        Enim sit temporibus voluptate obcaecati accusantium natus, reiciendis provident labore?</p>
+                    <br>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora nostrum cumque voluptatum
+                        tempore,
+                        quia aperiam dolor at similique maiores voluptatem
+                        temporibus provident fugit blanditiis veritatis! Sint labore quis cum veritatis.</p>
+                </div>
+            </div>
         </div>
     </main>
 

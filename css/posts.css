@@ -8,7 +8,7 @@ main {
 }
 
 .posts-container {
-    width: 70%;
+    /* width: 70%; */
     background-color: #dffff7;
     padding: 0;
     border-radius: 10px;
@@ -30,7 +30,11 @@ main {
 #postContent {
     padding: 20px;
 }
-
+.bars{
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #dffff7;
+}
 .post {
     background-color: #fff;
     padding: 15px;
