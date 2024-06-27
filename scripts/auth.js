@@ -7,8 +7,9 @@ myHeaders.append("accept", "application/json");
 myHeaders.append("Content-Type", "application/json");
 
 const raw = JSON.stringify({
-  "username": `${signupData.username}`,
+
   "fullName": `${signupData.fullname}`,
+  "username": `${signupData.username}`,
   "password": `${signupData.password}`,
 });
 

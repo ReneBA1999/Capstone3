@@ -11,7 +11,8 @@ signupForm.onsubmit = function (event) {
     // We can use signupForm.username (for example) to access
     // the input element in the form which has the ID of "username".
     const signupData = {
-        fullname: signupForm.firstName.value + ' ' + signupForm.lastName.value,
+       
+        fullname: signupForm.fullname.value,
         username: signupForm.username.value,
         password: signupForm.password.value,
     }

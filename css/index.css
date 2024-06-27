@@ -35,7 +35,12 @@ form {
 }
 
 form div {
+    margin-left: 40px;
     margin-bottom: 15px;
+}
+
+.btn{
+    margin-left: 80px;
 }
 
 footer {
