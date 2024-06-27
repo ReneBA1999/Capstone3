@@ -26,11 +26,13 @@
     <!-- Run BEFORE page is finished loading (before window.onload): -->
     <script src="scripts/auth.js"></script>
     <script>
-        if (isLoggedIn() === false) window.location.replace("/");
+        if (isLoggedIn() === false) window.location.replace("/")
     </script>
 </head>
 
+<!-- Body: Contains the main content of the page -->
 <body>
+    <!-- Header: Contains the navigation bar -->
     <header>
         <nav class="navbar">
             <div class="navbar-brand">
@@ -47,32 +49,35 @@
             </ul>
         </nav>
     </header>
+    <!-- Page Title -->
     <h2>Posts Page</h2>
+    <!-- Main content: Contains the main interactive content -->
     <main class="container">
         <div class="row">
+            <!-- Sidebar: Contains a list of friends online -->
             <div class="col-md-3">
                 <div class="bars">
-                    <!-- Sidebar content -->
                     <h2>Friends Online</h2>
                     <br>
-                    <p>Freind 1</p>
+                    <p>Friend 1</p>
                     <hr>
-                    <p>Freind 1</p>
+                    <p>Friend 1</p>
                     <hr>
-                    <p>Freind 1</p>
+                    <p>Friend 1</p>
                     <hr>
-                    <p>Freind 1</p>
+                    <p>Friend 1</p>
                     <hr>
-                    <p>Freind 1</p>
+                    <p>Friend 1</p>
                 </div>
             </div>
+            <!-- Posts container: Contains the posts content -->
             <div class="posts-container col-md-6">
                 <div class="posts-title">Posts</div>
                 <div id="postContent"></div> <!-- Container for posts -->
             </div>
+            <!-- Sidebar: Contains news content -->
             <div class="col-md-3">
                 <div class="bars">
-                    <!-- Sidebar content -->
                     <h2>News</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                         Laboriosam doloribus dicta molestias sit beatae ab modi porro eveniet nisi dignissimos!
@@ -88,11 +93,12 @@
         </div>
     </main>
 
+    <!-- Footer: Contains the footer content -->
     <footer class="text-center mt-auto py-3">
-        &copy; 2024 Cyber Chat. Rene Banuelos.
+        &copy 2024 Cyber Chat. Rene Banuelos.
     </footer>
 
-    <!-- Page-specific code -->
+    <!-- Scripts: Include external JavaScript files -->
     <script src="scripts/posts.js"></script>
     <script src="https://cdn.lordicon.com/lordicon.js"></script>
 </body>

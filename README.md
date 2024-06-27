@@ -1,9 +1,9 @@
 # Capstone3
  Capstone3
-This is my national parks web project. It consists of a few pages which includes a home page, mountain information page,
-and a search national parks page.
+This is my microblog network web project. It consists of a few pages which includes a index login page, registration signup page,
+ a page which displays posts, aswell as profile page.
 
-# Home page
+# registration page
 <p>
     <img src="images/nationalParksusaTopPage.png" alt="top Home Page" width="700">
     <img src="images/nationalParksusabottomPage.png" alt="bottom Home Page" width="700">
@@ -13,7 +13,7 @@ and a search national parks page.
  <p>
 
 
-# Search National Parks page
+# login page
 
 <p>
     <img src="images/nationalParksSearchPage.png" alt="search page full screen" width="700">
@@ -22,7 +22,16 @@ and a search national parks page.
     <img src="images/nationalParksSearchPageMinimized.png" alt="search page minimized" width="700">
 <p>
 
-# Mountain Information page
+# profile page
+<p>
+    <img src="images/nationalParksMountainInfoSearchPage.png" alt="mountain info Page" width="700">
+    <img src="images/nationalParksMountainInfoSearchPagefeature.png" alt="mountain info Page feature" width="700">
+    <br>
+    <h5>Minimized screen<h5>
+    <img src="images/nationalParksMountainInfoSearchPagefeatureMinimized.png" alt="mountain info Page feature minimized" width="700">
+<p>
+
+# posts page
 <p>
     <img src="images/nationalParksMountainInfoSearchPage.png" alt="mountain info Page" width="700">
     <img src="images/nationalParksMountainInfoSearchPagefeature.png" alt="mountain info Page feature" width="700">

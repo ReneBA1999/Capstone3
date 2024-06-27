@@ -1,4 +1,6 @@
-/* Landing Page CSS */
+/* Landing/index Page CSS */
+
+/* Body element: Set up flexbox layout, full viewport height, and background image */
 body {
     display: flex;
     flex-direction: column;
@@ -8,7 +10,9 @@ body {
     background-position: center;
     margin: 0;
 }
-h1{
+
+/* Heading 1: Center horizontally, align to top, and style the text */
+h1 {
     display: flex;
     flex: 1;
     justify-content: center;
@@ -16,6 +20,8 @@ h1{
     padding: 20px;
     color: #dffff7;
 }
+
+/* Main content: Center the content both horizontally and vertically */
 main {
     display: flex;
     flex: 1;
@@ -23,10 +29,14 @@ main {
     align-items: center;
     padding: 20px;
 }
+
+/* Social media: Center the social media icons */
 .social-media {
     display: flex;
     justify-content: center;
 }
+
+/* Form: Style the form with background, padding, rounded corners, and shadow */
 form {
     background: #dffff7;
     padding: 20px;
@@ -34,16 +44,24 @@ form {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Form div: Style the divs inside the form */
 form div {
     margin-left: 40px;
     margin-bottom: 15px;
 }
 
-.btn{
+/* Button: Style the button with margin */
+.btn {
     margin-left: 80px;
 }
 
+/* Footer: Center align text and add padding */
 footer {
     text-align: center;
     padding: 10px 0;
 }
+
+
+
+
+

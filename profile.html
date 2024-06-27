@@ -14,12 +14,13 @@
     <link rel="stylesheet" href="css/profile.css">
 
     <script>
-        if (isLoggedIn() === false) window.location.replace("/");
+        if (isLoggedIn() === false) window.location.replace("/")
     </script>
 
 </head>
-
+<!-- Body: Contains the main content of the page -->
 <body>
+    <!-- Header: Contains the navigation bar -->
     <header>
         <nav class="navbar">
             <div class="navbar-brand">
@@ -36,10 +37,13 @@
             </ul>
         </nav>
     </header>
+    <!-- Page Title -->
     <h2>Profile</h2>
+    <!-- Main content: Contains the main interactive content -->
     <main class="container-fluid">
         <div class="row">
-            <div class="bars col-md-3  p-3">
+            <!-- Sidebar: Contains user profile information and actions -->
+            <div class="bars col-md-3 p-3">
                 <h4>Rene Banuelos</h4>
                 <img src="images/linkedInPic.png" alt="me">
                 <br>
@@ -67,6 +71,7 @@
                 </svg>
                 <button class="btn btn-success">Chat</button>
             </div>
+            <!-- Main column: Contains post creation functionality -->
             <div class="col-md-6">
                 <div class="text-center my-3">
                     <h3>Create a New Post</h3>
@@ -75,10 +80,9 @@
                     <button onclick="createpost()" class="btn btn-success mt-2">Create Post</button>
                 </div>
             </div>
+            <!-- Sidebar: Contains event management functionality -->
             <div class="bars col-md-3 p-3">
-
                 <h4>Events</h4>
-
                 <div class="input-group">
                     <span class="input-group-text" id="basic-addon1">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -115,18 +119,18 @@
             </div>
         </div>
     </main>
+    <!-- Footer: Contains the footer content -->
     <footer class="text-center mt-auto py-3">
-        &copy; 2024 Cyber Chat. Rene Banuelos.
+        &copy 2024 Cyber Chat. Rene Banuelos.
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
-
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
+    <!-- External scripts: authentication and profile functionalities -->
     <script src="scripts/auth.js"></script>
     <script src="scripts/profile.js"></script>
     <script src="https://cdn.lordicon.com/lordicon.js"></script>
