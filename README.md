@@ -5,39 +5,35 @@ This is my microblog network web project. It consists of a few pages which inclu
 
 # registration page
 <p>
-    <img src="images/nationalParksusaTopPage.png" alt="top Home Page" width="700">
-    <img src="images/nationalParksusabottomPage.png" alt="bottom Home Page" width="700">
+    <img src="images/registration-fullscreen.png" alt="registration Page" width="700">
     <br>
     <h5>Minimized screen<h5>
-    <img src="images/nationalParksusaMinimizedPage.png" alt="homepage minimized" width="700">
+    <img src="images/registration-minimized.png" alt="registration Page minimized" width="700">
  <p>
 
 
 # login page
-
 <p>
-    <img src="images/nationalParksSearchPage.png" alt="search page full screen" width="700">
+    <img src="images/login-fullscreen.png" alt="login page full screen" width="700">
      <br>
     <h5>Minimized screen<h5>
-    <img src="images/nationalParksSearchPageMinimized.png" alt="search page minimized" width="700">
+    <img src="images/login-minimized.png" alt="login page minimized" width="700">
 <p>
 
 # profile page
 <p>
-    <img src="images/nationalParksMountainInfoSearchPage.png" alt="mountain info Page" width="700">
-    <img src="images/nationalParksMountainInfoSearchPagefeature.png" alt="mountain info Page feature" width="700">
+    <img src="images/profile-fullscreen.png" alt="profile Page" width="700">
     <br>
     <h5>Minimized screen<h5>
-    <img src="images/nationalParksMountainInfoSearchPagefeatureMinimized.png" alt="mountain info Page feature minimized" width="700">
+    <img src="images/profile-minimized.png" alt="profile Page minimized" width="700">
 <p>
 
 # posts page
 <p>
-    <img src="images/nationalParksMountainInfoSearchPage.png" alt="mountain info Page" width="700">
-    <img src="images/nationalParksMountainInfoSearchPagefeature.png" alt="mountain info Page feature" width="700">
+    <img src="images/posts-fullscreen.png" alt="posts Page" width="700">
     <br>
     <h5>Minimized screen<h5>
-    <img src="images/nationalParksMountainInfoSearchPagefeatureMinimized.png" alt="mountain info Page feature minimized" width="700">
+    <img src="images/login-minimized.png" alt="posts Page minimized" width="700">
 <p>
 
 

@@ -2,7 +2,7 @@
 
 /* Main content: Add margin to top, set up flexbox layout, and add padding */
 main {
-    margin-top: 70px; /* Add space to avoid content being hidden under the navbar */
+    margin-top: 20px; /* Add space to avoid content being hidden under the navbar */
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -10,7 +10,6 @@ main {
 
 /* Posts container: Style the container for posts */
 .posts-container {
-    /* width: 70%; */
     background-color: #dffff7;
     padding: 0;
     border-radius: 10px;
