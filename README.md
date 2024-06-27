@@ -33,14 +33,14 @@ This is my microblog network web project. It consists of a few pages which inclu
     <img src="images/posts-fullscreen.png" alt="posts Page" width="700">
     <br>
     <h5>Minimized screen<h5>
-    <img src="images/login-minimized.png" alt="posts Page minimized" width="700">
+    <img src="images/posts-minimized.png" alt="posts Page minimized" width="700">
 <p>
 
 
 #
 
-One interesting piece of code within this project. Id say is the table styles from my javascript, I was going to try to implement styles via javascript, but ive read its better practice to style these components using css.
+One interesting piece of code within this project. Id say is the incorporation of the icons to my profile page I uploaded them to my profile page via an svg tag
 
  <p>
-    <img src="images/interestPieceOfCodee.png" alt="interesting code" width="700">
+    <img src="images/icons-code.png" alt="interesting code" width="700">
  <p>
